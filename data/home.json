@@ -187,33 +187,33 @@
   ],
   "accordion": [
     {
-      "title": "What is ChatenAI ? How does it work?",
-      "desc": "ChatenAI is an AI-powered messaging platform that understands and responds to your natural language queries. Ask anything you'd typically ask a human assistant—get weather updates, news, restaurant recommendations, and more!",
+      "title": "Come posso iniziare a usare Reqonto?",
+      "desc": "Per acquistare la licenza scolastica, contatta il rivenditore di zona. Acquistata la licenza iniziare a usare Reqonto è semplice. Registrati sul nostro sito web, crea un account e accedi alla tua dashboard personalizzata. Da lì, puoi caricare i tuoi documenti e iniziare a sfruttare tutte le funzionalità di Reqonto per la gestione dei progetti della tua scuola.",
       "isExpand": true
     },
     {
-      "title": "What kind of questions can I ask ChatenAI?",
-      "desc": "ChatenAI, an AI-driven messaging platform, adeptly communicates with users using natural language understanding. It delivers helpful responses to your inquiries and requests.",
+      "title": "Come può Reqonto aiutarmi con i bandi?",
+      "desc": "Reqonto utilizza l'intelligenza artificiale per preparare tutta la documentazione necessaria per partecipare agli avvisi, snellendo significativamente il lavoro di segreteria. Questo permette alla tua scuola di risparmiare tempo prezioso e di garantire che tutta la documentazione sia completa e accurata.",
       "isExpand": false
     },
     {
-      "title": "Can I get update regularly and For how long do I get updates?",
-      "desc": "Yes, We will get update the ChatenAI. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update.",
+      "title": "Reqonto supporta diversi formati di documenti?",
+      "desc": "Sì, Reqonto supporta il caricamento di documenti in vari formati, inclusi PDF, Word, e Excel. Puoi facilmente caricare preventivi, piani formativi e altri documenti necessari per la gestione dei tuoi progetti.",
       "isExpand": false
     },
     {
-      "title": "How can I get the customer support?",
-      "desc": "After purchasing the product need you any support you can be share with us with sending mail to rainbowit10@gmail.com.",
+      "title": "Come posso assegnare compiti tramite Reqonto?",
+      "desc": "Per assegnare compiti, vai alla timeline del progetto, clicca sul task che desideri assegnare, e utilizza la funzione \"@\" seguita dall'indirizzo email del membro del team. Il destinatario riceverà una notifica via email con i dettagli del compito assegnato.",
       "isExpand": false
     },
     {
-      "title": "HIs my data safe with ChatenAI?",
-      "desc": "Feel free to toss any questions at chatenAI, just like you would with a human helper—whether it's about the weather, the latest news, restaurant suggestions, or anything else you fancy!",
+      "title": "Reqonto può confrontare preventivi dei fornitori?",
+      "desc": "Assolutamente! Reqonto utilizza l'intelligenza artificiale per analizzare e confrontare i preventivi caricati. Puoi visualizzare le differenze di prezzo e prodotto su una dashboard interattiva, facilitando la scelta del fornitore migliore per le esigenze della tua scuola.",
       "isExpand": false
     },
     {
-      "title": "Is ChatenAI available in multiple languages?",
-      "desc": "Yes, ChatenAI is designed to support multiple languages, offering a versatile and inclusive communication experience for users worldwide.",
+      "title": "Cos'è la sezione DSGAI?",
+      "desc": "Abbiamo aggiunto una sezione DSGAI che include un chatbot avanzato. Questo chatbot prende i contenuti direttamente dai siti della Pubblica Amministrazione relativi al mondo della scuola e dalle leggi, garantendo così informazioni sempre aggiornate e accurate per rispondere a tutte le tue domande.",
       "isExpand": false
     }
   ]
