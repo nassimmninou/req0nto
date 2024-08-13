@@ -13,10 +13,13 @@ const Home = () => {
     import("venobox/dist/venobox.min.js").then((venobox) => {
       new venobox.default({
         selector: ".popup-video",
-        maxWidth: window.innerWidth >= 992 ? "50%" : "100%",
+        autoplay: true,
+        spinner: "cube-grid",
+        
       });
     });
   }, []);
+
   return (
     <>
       <div
@@ -28,14 +31,14 @@ const Home = () => {
             <div className="col-lg-12">
               <div className="inner text-center mt--60">
                 <h1 className="title display-one">
-                Gestisci i Progetti<br />
+                  Gestisci i Progetti<br />
                   <span className="theme-gradient">della Tua Scuola </span> con {" "}
                   <br />
-                  <span className="color-off">Reqonto</span>
+                  <span className="color-off">school Advisor ai</span>
                 </h1>
                 <p className="b1 desc-text">
-                Gestione Progetti con AI: Rivoluzionando l'Efficienza della Tua Scuola
-                .
+                  Gestione Progetti con AI: Rivoluzionando l'Efficienza della Tua Scuola
+                  .
                 </p>
                 <div className="button-group">
                   <Link
@@ -51,16 +54,27 @@ const Home = () => {
             <div className="col-lg-10 col-xl-10 order-1 order-lg-2">
               <div className="frame-image frame-image-bottom bg-flashlight video-popup icon-center">
                 <Image src={bannerImg} alt="Banner Images" />
+                <div className="video-container">
+                  <video
+                    className="video-player"
+                    src="/videos/video.mp4"
+                    width="100%"
+                    height="auto"
+                    poster="/images/video-poster.png"
+                  >
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
                 <div className="video-icon">
-                  <Link
+                  <a
                     className="btn-default rounded-player popup-video border bg-white-dropshadow"
-                    href="https://youtu.be/ThRYF96HIzA?si=Yz-Yc5HSf8uLPv-G"
+                    href="/videos/video.mp4"
                     data-vbtype="video"
                   >
                     <span>
                       <i className="feather-play"></i>
                     </span>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
