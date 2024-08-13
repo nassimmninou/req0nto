@@ -28,7 +28,7 @@ const Split = () => {
                       data-sal-duration="400"
                       data-sal-delay="200"
                     >
-                      Gestisci la scuola con la prima AI creata per la scuola
+                      Gestisci la scuola con la prima AI 
                     </h4>
                     <p
                       className="description"
