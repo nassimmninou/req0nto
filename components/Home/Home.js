@@ -1,5 +1,4 @@
 "use client";
-
 import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -29,13 +28,14 @@ const Home = () => {
             <div className="col-lg-12">
               <div className="inner text-center mt--60">
                 <h1 className="title display-one">
-                  Unlock The Power Of <br />
-                  <span className="theme-gradient">ChatenAI AI</span> With{" "}
+                Gestisci i Progetti<br />
+                  <span className="theme-gradient">della Tua Scuola </span> con {" "}
                   <br />
-                  <span className="color-off">Smartest AI</span>
+                  <span className="color-off">Reqonto</span>
                 </h1>
                 <p className="b1 desc-text">
-                  AI-Powered Copywriting A Game-Changer in Content Creation.
+                Gestione Progetti con AI: Rivoluzionando l'Efficienza della Tua Scuola
+                .
                 </p>
                 <div className="button-group">
                   <Link
@@ -43,7 +43,7 @@ const Home = () => {
                     href="/text-generator"
                   >
                     <div className="has-bg-light"></div>
-                    <span>Start writing for free</span>
+                    <span>Inizia Ora con Reqonto</span>
                   </Link>
                 </div>
                 <p className="color-gray mt--5">💳 No credit card required!</p>

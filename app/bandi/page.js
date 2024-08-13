@@ -1,4 +1,4 @@
-import DashboardPage from "./index";
+import Bandi from "./index";
 
 export const metadata = {
   title: "ChatenAI - AI SaaS Website NEXTJS14 UI Kit",
@@ -8,8 +8,8 @@ export const metadata = {
 const DashboardLayout = () => {
   return (
     <>
-      <DashboardPage />
-    </> 
+      <Bandi />
+    </>
   );
 };
 

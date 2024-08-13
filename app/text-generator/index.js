@@ -13,6 +13,8 @@ import Image from "next/image";
 import Reaction from "@/components/Common/Reaction";
 import { Tooltip } from "react-tooltip";
 import sal from "sal.js";
+import Link from "next/link";
+
 
 const userimg = "/images/team/team-01.jpg"
 const aiimg = "/images/team/avater.png"
@@ -40,15 +42,15 @@ const TextGeneratorPage = () => {
   const handleFileChange = (event) => {
     const files = Array.from(event.target.files);
     const validFiles = files.filter(file => file.type === "application/pdf");
-  
+
     if (validFiles.length !== files.length) {
       alert("Only PDF files are allowed.");
       return;
     }
-  
+
     setUploadedFiles(validFiles);
   };
-  
+
   const onSubmit = useCallback(
     (e) => {
       e.preventDefault();
@@ -175,15 +177,29 @@ const TextGeneratorPage = () => {
                   </div>
                   <div className="rbt-static-bar">
                     <Tooltip id="my-tooltip" className="custom-tooltip tooltip-inner" />
-                    <div className="uploaded-files">
-                        {uploadedFiles.map((file, index) => (
-                          <div key={index} className="file-box">
-                            {file.name}
+                    <div className="d-flex overflow-auto scroll-container">
+                      {uploadedFiles.map((file, index) => (
+
+                          <div
+                        className="genarator-card disabled"
+                      >
+                        <div className="inner " data-bs-dismiss="modal">
+                          <div className="left-align">
+                            <div className="img-bar">
+                              <Image
+                                src="/images/PDF-image.png"
+                                width={50}
+                                height={50}
+                                alt="AI Generator"
+                              />
+                            </div>
+                            <h5 className="title">{file.name}</h5>
                           </div>
-                        ))}
+                        </div>
                       </div>
+                      ))}
+                    </div>
                     <form className="new-chat-form border-gradient" onSubmit={onSubmit}>
-                      
                       <textarea
                         rows="1"
                         placeholder="Send a message..."
@@ -209,8 +225,8 @@ const TextGeneratorPage = () => {
                             accept="application/pdf"
                             onChange={handleFileChange}
                           />
-                        <i className="feather-plus-circle"></i>
-          
+                          <i className="feather-plus-circle"></i>
+
                         </div>
                         <a
                           className="form-icon icon-mic"
