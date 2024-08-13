@@ -38,18 +38,18 @@ const Pricing = () => {
                   <span className="theme-gradient">Pricing</span>
                 </h4>
                 <h2 className="title w-600 mb--20">
-                  Commence Content Journey with AI
+                  Scegeli il piano più adatto alle tue esigenze
                 </h2>
                 <p className="description b1">
-                  Collaborate with AI to generate content that resonates.
+                  Fatti aiutare da School-advisor per la gestione dei fabbisogni quotidiani
                 </p>
               </div>
             </div>
           </div>
           <div className="row row--15">
             {PricingData &&
-              PricingData.pricing.slice(0, 3).map((data, index) => (
-                <div className="col-lg-4 col-md-6 col-12" key={index}>
+              PricingData.pricing.slice(0, 4).map((data, index) => (
+                <div className="col-lg-3 col-md-6 col-12" key={index}>
                   <div
                     className={`rainbow-pricing style-2 ${
                       data.isActive ? "active" : ""

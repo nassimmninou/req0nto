@@ -1,5 +1,6 @@
 {
   "service": [
+    
     {
       "title": "Effortless Content AI",
       "desc": "Let our AI-powered service take the hard work out of content creation. Get started today with AI.",
@@ -52,6 +53,39 @@
     }
   ],
   "pricing": [
+    {
+      "title": "Basic",
+      "price": 0,
+      "text": "",
+      "subTitle": "Forever",
+      "isActive": false,
+      "subItem": [
+        {
+          "text": "7,700 Words",
+          "isMinus": false
+        },
+        {
+          "text": "6+ Templates",
+          "isMinus": false
+        },
+        {
+          "text": "5+ Languages",
+          "isMinus": false
+        },
+        {
+          "text": "AI Blog generate",
+          "isMinus": true
+        },
+        {
+          "text": "Advance Editor Tool",
+          "isMinus": true
+        },
+        {
+          "text": "Consistent support",
+          "isMinus": true
+        }
+      ]
+    },
     {
       "title": "Basic",
       "price": 0,

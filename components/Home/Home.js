@@ -43,10 +43,9 @@ const Home = () => {
                     href="/text-generator"
                   >
                     <div className="has-bg-light"></div>
-                    <span>Inizia Ora con Reqonto</span>
+                    <span>Provala adesso</span>
                   </Link>
                 </div>
-                <p className="color-gray mt--5">💳 No credit card required!</p>
               </div>
             </div>
             <div className="col-lg-10 col-xl-10 order-1 order-lg-2">

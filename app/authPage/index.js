@@ -13,7 +13,6 @@ const AuthPage = () => {
     <>
       <main className="page-wrapper">
         <Context>
-          <HeaderTop />
           <Header
             headerTransparent="header-transparent"
             headerSticky="header-sticky"

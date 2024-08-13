@@ -38,8 +38,7 @@ const Footer = () => {
                     </Link>
                   </div>
                   <p className="b1 text-center mt--20 mb--0">
-                    Create Website By ChatenAI So Quick Download And Make Your
-                    Site.
+                  AI pensata per la gestione del mondo della scuola
                   </p>
                 </div>
               </div>

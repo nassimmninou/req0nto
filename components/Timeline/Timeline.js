@@ -32,10 +32,10 @@ const Timeline = () => {
                 data-sal-delay="100"
               >
                 <h4 className="subtitle ">
-                  <span className="theme-gradient">HOW IT WORKS</span>
+                  <span className="theme-gradient">COMO FUNZIONA</span>
                 </h4>
                 <h2 className="title w-600 mb--20">
-                  Guide Our AI to Create Your Copy
+                Usa la nostra AI per gestire la tua scuola
                 </h2>
               </div>
             </div>

@@ -53,7 +53,7 @@ const CallToAction = () => {
                             href="/text-generator"
                           >
                             <div className="has-bg-light"></div>
-                            <span>Start writing for free</span>
+                            <span>Provala adesso</span>
                           </Link>
                         </div>
                       </div>

@@ -28,7 +28,7 @@ const Split = () => {
                       data-sal-duration="400"
                       data-sal-delay="200"
                     >
-                      Instant Content with AI
+                      Gestisci la scuola con la prima AI creata per la scuola
                     </h4>
                     <p
                       className="description"
@@ -46,9 +46,11 @@ const Split = () => {
                       data-sal-duration="400"
                       data-sal-delay="350"
                     >
-                      <li>- Craft Articles in Under 20 Seconds.</li>
-                      <li>- Reclaim Hundreds of Valuable Hours with AI</li>
-                      <li>- Elevate Copywriting with Rewriter.</li>
+                      <li>- Gestisco dedicata alla gestione delle esigenze scolastiche quotidiane.</li>
+                      <li>- Progetto la sezione dedicata alla progettazione dei bandi scolastici</li>
+                      <li>- Rendiconto la prima AI pensata per li mondo deall rendicontazione delle gare.</li>
+                      <li>- Global per avere tutto.</li>
+
                     </ul>
                     <div
                       className="view-more-button mt--35"
@@ -57,7 +59,7 @@ const Split = () => {
                       data-sal-delay="400"
                     >
                       <Link className="btn-default" href="/contact">
-                        Contact With Us
+                        Contattaci
                       </Link>
                     </div>
                   </div>

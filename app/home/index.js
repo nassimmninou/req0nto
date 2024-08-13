@@ -21,7 +21,6 @@ const HomePage = () => {
     <>
       <main className="page-wrapper">
         <Context>
-          <HeaderTop />
           <Header
             headerTransparent="header-not-transparent"
             headerSticky="header-sticky"
@@ -42,7 +41,6 @@ const HomePage = () => {
           <Separator top={false} />
           <Brands />
           <Separator top={true} />
-          <CallToAction />
 
           <Footer />
           <Copyright />

@@ -36,7 +36,7 @@ const Service = () => {
                 data-sal-delay="100"
               >
                 <h4 className="subtitle">
-                  <span className="theme-gradient">GET IN TOUCH FOR FREE</span>
+                  <span className="theme-gradient">Unisciti a noi                  </span>
                 </h4>
                 <h2 className="title w-600 mb--20">
                   Instant Content Generation with AI

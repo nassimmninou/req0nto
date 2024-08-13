@@ -13,7 +13,6 @@ const PricingPage = () => {
     <>
       <main className="page-wrapper">
         <Context>
-          <HeaderTop />
           <Header
             headerTransparent="header-not-transparent"
             headerSticky="header-sticky"
